@@ -35,9 +35,3 @@ class _ImageWidgetState extends State<ImageWidget> {
     );
   }
 }
-
-void main() {
-  runApp(const MaterialApp(
-    home: ImageWidget(),
-  ));
-}

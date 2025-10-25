@@ -46,12 +46,12 @@ class _MainScreenState extends State<MainScreen> {
 
   List<Topic> topics = [
     Topic(name: 'Фрукты', words: [
-      Word(word: 'Apple', translation: 'Яблоко'),
-      Word(word: 'Banana', translation: 'Банан'),
-      Word(word: 'Cherry', translation: 'Вишня'),
-      Word(word: 'Orange', translation: 'Апельсин'),
-      Word(word: 'Grape', translation: 'Виноград'),
-      Word(word: 'Pineapple', translation: 'Ананас'),
+      Word(word: 'Apple', translation: 'Яблоко', url: 'https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png'),
+      Word(word: 'Banana', translation: 'Банан', url: 'https://img.freepik.com/free-psd/fresh-fruits-composition_23-2151371971.jpg?semt=ais_hybrid&w=740&q=80'),
+      Word(word: 'Cherry', translation: 'Вишня', url: 'https://rainierfruit.com/wp-content/uploads/2021/11/Rainier-Fruit-Cherries.png'),
+      Word(word: 'Orange', translation: 'Апельсин', url: 'https://lh3.googleusercontent.com/proxy/L5cilbcVrbLsGoMipa4F2W6OYFrp-xelWPCg7C_5sLdjLY-rrBhDB1SVU0W7iajUTtUO0NP5rF9uQnQvKZK72GJNasauveg0aLIkaZHp1nz730UWoS4CSZmC-jwTxrhy6bqA9kLQH49CTw'),
+      Word(word: 'Grape', translation: 'Виноград', url: 'https://img.freepik.com/free-photo/natural-fruit-vine-healthy-harvest_1203-5965.jpg?semt=ais_hybrid&w=740&q=80'),
+      Word(word: 'Pineapple', translation: 'Ананас', url: 'https://www.heddensofwoodtown.co.uk/wp-content/uploads/2020/05/pineapple_opt.jpg'),
       Word(word: 'Mango', translation: 'Манго'),
       Word(word: 'Peach', translation: 'Персик'),
       Word(word: 'Strawberry', translation: 'Клубника'),
